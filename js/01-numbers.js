@@ -77,3 +77,6 @@ console.log(saknis);
 const kvadratas = Math.PI * nr11;
 console.log(kvadratas);
 
+
+const round = Math.pow(2,3);
+console.log(round);

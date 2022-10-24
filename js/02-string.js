@@ -31,4 +31,8 @@ console.log(multiline1);
 const multiline2 = 'Labas rytas,\n\r\Lietuva!';
 console.log(multiline2);
 
-console.log();
+const nr1 = 7;
+const nr2 = 5;
+
+const sum = `${nr1} + ${nr2} = ${nr1 + nr2}`;
+console.log(sum);

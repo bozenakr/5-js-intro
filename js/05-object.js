@@ -82,3 +82,5 @@ const kurisTevas = 'mama';
 const klasesInfo = mokykla[klase];
 const kazkas = klasesInfo[mokinioIndex].tevai[kurisTevas][0];
 console.log(kazkas);
+
+console.clear()

@@ -2,6 +2,8 @@
 ARRAY - sąrašas, masyvas, matrica (default 2D, 3D, 4D....)
 */
 
+
+/*=====================================================
 const p1 = 10;
 const p2 = 2;
 const p3 = 8;
@@ -10,16 +12,18 @@ const p5 = 6;
 const p6 = 10;
 
 const vidurkis = (p1 + p2 + p3 + p4 + p5 + p6) / 6;
-console.log(`vidurkis: ${vidurkis}`);
+console.log(`vidurkis:${vidurkis}`);
+*/
 
 const mokiniai = ['Petras', 'Maryte', 'Jonas', 'Ona'];
+const mokiniuKiekis = mokiniai.length;
+console.log(`mokiniu Kiekis: ${mokiniuKiekis}`);
 const turiPapeikima = [true, false, false, true];
 
-//                 0  1  2  3  4
 const pazymiai = [10, 2, 8, 4, 6];
 console.log(pazymiai);
 
-const ap1 = pazymiai[0];
+const ap1 = pazymiai[0]; 
 const ap2 = pazymiai[1];
 const ap3 = pazymiai[2];
 const ap4 = pazymiai[3];
@@ -27,16 +31,15 @@ const ap5 = pazymiai[4];
 
 const kiekis = pazymiai.length;
 
+console.log(ap1, ap2, ap3, ap4, ap5,);
+
+
 const pazymiuVidurkis = (ap1 + ap2 + ap3 + ap4 + ap5) / kiekis;
-console.log(`pazymiu vidurkis: ${pazymiuVidurkis}`);
 
-const wikiPuslapiai = [45];
-const wikiPuslapiuKiekis = wikiPuslapiai.length;
-console.log(wikiPuslapiuKiekis);
 
-const wikiText = `Wiki puslapiu: ${wikiPuslapiuKiekis} kiekis.`;
-console.log(wikiText);
+console.log(`pazymiu Vidurkis: ${pazymiuVidurkis}`);
 
+/*
 const pirkiniai = [
     ['agurkas', 3],
     ['pomidoras', 20],
@@ -49,13 +52,25 @@ const pirkiniai = [
     ['kiausiniai', 10],
     ['grietine', 1],
 ];
-const prekesIndex = 6;
+
+console.log(pirkiniai);
+
+
+// Reikia nupirkti 3 agurkas
+// Reikia nupirkti 2 burokelis
+
+
+const prekesIndex = 0;
 const preke = pirkiniai[prekesIndex];
 const prekesKiekis = preke[1];
 const prekesPavadinimas = preke[0];
-const prekesAprasas = `Reikia nupirkti ${prekesKiekis} ${prekesPavadinimas}.`;
 
+
+const prekesAprasas = `Reikia nupirkti ${prekesKiekis} ${prekesPavadinimas}.`;
+console.log(preke);
 console.log(prekesAprasas);
+
+======================================================*/
 
 // mokykla > klases > mokiniai > tevus > telefonai
 const mokykla = [
@@ -83,7 +98,7 @@ const mokykla = [
     [2, [
         ['Jonas', [
             ['Jono tete', []],
-            ['Jono mama', []],
+            ['Jono mama', [1111]],
         ]],
         ['Ona', [
             ['Onos tete', [
@@ -95,9 +110,26 @@ const mokykla = [
 ];
 
 // Jono mamos tel kiekis
-const klase = 1;
-const mokinioIndex = 1;
-const tevuIndex = 0;
+/*const klase = 2;
+const mokinioIndex = 0;
+const tevuIndex = 1;
+const tevuTelefonaiIndex = 1;
 
-const telefonai = mokykla[klase - 1][1][mokinioIndex][1][tevuIndex][1].length;
+const telefonai = mokykla[klase-1][1][mokinioIndex][1][tevuIndex][1];
+console.log(telefonai);*/
+
+
+// Marytes tecio telefono nr
+/*const klase = 1;
+const mokinioIndex = 1;
+const tevuIndex = 1;
+
+const telefonai = mokykla[klase-1][1][mokinioIndex][1][tevuIndex][1].length;
 console.log(telefonai);
+*/
+
+// kiek mokykloje klasiu
+/*const klase = 2;
+const kiekKlasiu = mokykla.length;
+console.log(kiekKlasiu);
+*/

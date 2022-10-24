@@ -7,10 +7,16 @@ tiesa ar melas
 const taip = true;
 const ne = false;
 
+
+
 const isMarried = true;
 const isLoggedIn = false;
 
+
+
+
 let isUsed = false;
 isUsed = true;
-
 console.log(isUsed);
+
+console.log(isLoggedIn);
