@@ -1,24 +1,34 @@
 {
-  "name": "5-js-intro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "for": "nodemon ./js/08-for.js",
-    "if": "nodemon ./js/07-if.js",
-    "function": "nodemon ./js/06-function.js",
-    "object": "nodemon ./js/05-object.js",
-    "array": "nodemon ./js/04-array.js",
-    "boolean": "nodemon ./js/03-boolean.js",
-    "string": "nodemon ./js/02-string.js",
-    "numbers": "nodemon ./js/01-numbers.js",
-    "dev": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Bozena",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "name": "5-js-intro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "spread": "nodemon ./js/17-spread.js",
+        "arrows": "nodemon ./js/16-arrows.js",
+        "loo6s": "nodemon ./js/15-loops.js",
+        "string-methods": "nodemon ./js/14-string-methods.js",
+        "numSize": "nodemon ./js/13-numSize.js",
+        "sum3intervale": "nodemon ./js/12-sum-intervale.js",
+        "ternary": "nodemon ./js/11-ternary.js",
+        "reverse-string": "nodemon ./js/10-reverse-string.js",
+        "uzduotys": "nodemon ./js/999-uzduotys.js",
+        "multiply": "nodemon ./js/09-multiply.js",
+        "for": "nodemon ./js/08-for.js",
+        "if": "nodemon ./js/07-if.js",
+        "function": "nodemon ./js/06-function.js",
+        "object": "nodemon ./js/05-object.js",
+        "array": "nodemon ./js/04-array.js",
+        "boolean": "nodemon ./js/03-boolean.js",
+        "string": "nodemon ./js/02-string.js",
+        "numbers": "nodemon ./js/01-numbers.js",
+        "dev": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Bozena",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }

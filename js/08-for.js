@@ -38,22 +38,22 @@ FOR - ciklas ("tevinis")
 
 // console.log('Wallet:', wallet);
 
-const marks = [10, 2, 8, 4, 5];
-let total = 0;
+// const marks = [10, 2, 8, 4, 5];
+// let total = 0;
 
-for (let i = 0; i < marks.length; i = i + 1) {
-    console.log(i, '->', marks[i]);
-    total = total + marks[i];
-}
+// for (let i = 0; i < marks.length; i = i + 1) {
+//     console.log(i, '->', marks[i]);
+//     total = total + marks[i];
+// }
 
-const count = marks.length;
-const average = total / count;
+// const count = marks.length;
+// const average = total / count;
 
-console.log('Average:', average);
+// console.log('Average:', average);
 
-for (let i = marks.length; i >= 0; i = i - 1) {
-    console.log(i, '->', marks[i]);
-}
+// for (let i = marks.length; i >= 0; i = i - 1) {
+//     console.log(i, '->', marks[i]);
+// }
   
 
 
@@ -137,3 +137,39 @@ for (let i = marks.length; i >= 0; i = i - 1) {
 //     const symbol = username[i];
 //     console.log(symbol);
 // }
+
+// ===============================================
+
+
+// for (let bunny = 5; bunny <= 100; bunny = bunny + 5) {
+//     console.log(bunny);
+// }
+
+
+// let total = 0;
+// for (let num = 0; num <= 10; num = num + 1) {
+//     console.log(num);
+//     total = total + num;
+// }
+
+// console.log('The total is: ' + total);
+
+
+
+// const fruits = ['mango', 'banana', 'apple', 'cherry'];
+
+// for (let i = 0; i < fruits.length; i = i +1) {
+//     console.log(fruits[i]);
+// } 
+
+
+// const dane = {
+//     name: 'John',
+//     age: 28,
+//     maritalStatus: true,
+// }
+
+// for (let i in dane) {
+//     console.log(i, dane[i]);
+// }
+
